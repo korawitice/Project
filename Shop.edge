@@ -12,7 +12,7 @@
     </head>
     <body>
         <div class="menubar">
-            <div class="container">
+            <div class="conainer">
                 <div class="logo">
                     <h1><a href="Home">ICE ACE CAMERA</a></h1>
                 </div>
@@ -35,9 +35,9 @@
                 </ul>
             </div>
         </div>
-        <!DOCTYPE html>
+        
 <style>
-* {
+{
   box-sizing: border-box;
 }
 
@@ -45,7 +45,6 @@ body {
   background-color: #f1f1f1;
 }
 
-/* Center website */
 .main {
   max-width: 1000px;
   margin: auto;
@@ -60,13 +59,12 @@ h1 {
   margin: 10px -16px;
 }
 
-/* Add padding BETWEEN each column */
 .row,
 .row > .column {
   padding: 8px;
 }
 
-/* Create three equal columns that floats next to each other */
+
 .column {
   float: left;
   width: 33.33%;
@@ -121,7 +119,7 @@ h1 {
 </head>
 <body>
 
-<!-- MAIN (Center website) -->
+
 <div class="main">
 
 <h1>SHOP TIME</h1>
@@ -129,84 +127,123 @@ h1 {
 
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('Nikon')">Nikon </button>
-  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-  <button class="btn" onclick="filterSelection('people')"> People</button>
+  <button class="btn" onclick="filterSelection('Camera')">Camera </button>
+  <button class="btn" onclick="filterSelection('GoPro')">GoPro</button>
+  <button class="btn" onclick="filterSelection('Lens')">Lens</button>
 </div>
 
-<!-- Portfolio Gallery Grid -->
 <div class="row">
     <div class="hero-text">
-  <div class="column Nikon">
+  <div class="column Camera">
     <div class="content">
-      <img src="img/Nikon-Coolpix-B600-1.jpg" alt="Mountains" style="width:100%">
+      <img src="img/Nikon-Coolpix-B600-1.jpg" alt="Camera" style="width:100%">
       <h4>Nikon Coolpix B600</h4>
       <p>9,490 ฿</p>
-      <p><button> <a href="Shop">Detail</button></p>
+      <p><button> <a href="Home">BUYNOW</button></p>
     </div></div>
   </div>
-  <div class="column Nikon">
+  <div class="hero-text">
+  <div class="column Camera">
     <div class="content">
-    <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-      <h4>Lights</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="img/Nikon-Z7_1.jpg" alt="Camera" style="width:100%">
+      <h4>Nikon-Z7</h4>
+      <p>101,990 ฿ – 120,990 ฿</p>
+      <p><button class="button"><a href="Nikon">BUYNOW</button></p> 
     </div>
   </div>
-  <div class="column Nikon">
+  <div class="hero-text">
+  <div class="column GoPro">
     <div class="content">
-    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
-      <h4>Forest</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="img/GoPro-Max-360-1.jpg" alt="Nature" style="width:100%">
+      <h4>GoPro-Max</h4>
+      <p>17,000 ฿</p>
+      <p><button> <a href="Home">BUYNOW</button></p>
+    </div>
+  </div> </div>
+  <div class="hero-text">
+  <div class="column Lens">
+    <div class="content">
+      <img src="img/Fujifilm-XF-35mm-f1.4-Lens_1.jpg" alt="Car" style="width:100%">
+      <h4>Fujinon XF 35mm f/1.4 R</h4>
+      <p>13,590 ฿ – 19,990 ฿</p>
+      <p><button> <a href="Home">BUYNOW</button></p>
     </div>
   </div>
-  
-  <div class="column cars">
+  <div class="hero-text">
+  <div class="column Camera">
     <div class="content">
-      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
-      <h4>Retro</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="img/eos-1500d_02-1.jpg" alt="Camera" style="width:100%">
+      <h4>Canon EOS 1500D</h4>
+      <p>13,590 ฿ – 17,900 ฿</p>
+      <p><button> <a href="Home">BUYNOW</button></p>
     </div>
   </div>
-  <div class="column cars">
+  <div class="hero-text">
+  <div class="column Camera">
     <div class="content">
-    <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
-      <h4>Fast</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="img/Leica-CL-Mirrorless-Digital_1.jpg" alt="Camera" style="width:100%">
+      <h4>Leica CL Mirrorless Digital Camera</h4>
+      <p>86,900 ฿ – 139,900 ฿</p>
+      <p><button> <a href="Home">BUYNOW</button></p>
     </div>
   </div>
-  <div class="column cars">
+  <div class="hero-text">
+  <div class="column GoPro">
     <div class="content">
-    <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
-      <h4>Classic</h4>
-      <p>Lorem ipsum dolor..</p>
+      <img src="img/GoPro-HERO-7-Silver_1.jpg" alt="Car" style="width:100%">
+      <h4>GoPro HERO 7 Silver</h4>
+      <p>6,900 ฿</p>
+      <p><button> <a href="Home">BUYNOW</button></p>
     </div>
   </div>
-
-  <div class="column people">
+  <div class="hero-text">
+  <div class="column Lens">
     <div class="content">
-      <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
-      <h4>Girl</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="img/Panasonic-LUMIX-G-Leica-DG-Summilux-15mm-f1.7-ASPH_1.jpg" alt="Car" style="width:100%">
+      <h4>Panasonic LUMIX G Leica DG</h4>
+      <p>11,590 ฿</p>
+      <p><button> <a href="Home">BUYNOW</button></p>
     </div>
   </div>
-  <div class="column people">
+  <div class="hero-text">
+  <div class="column Lens">
     <div class="content">
-    <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
-      <h4>Man</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="img/Sigma-85mm-f1.4-DG-DNA-1.jpg" alt="Car" style="width:100%">
+      <h4>Sigma 85mm f/1.4 DG DN(A)</h4>
+      <p>38,900 ฿</p>
+      <p><button> <a href="Home">BUYNOW</button></p>
     </div>
   </div>
-  <div class="column people">
+  <div class="hero-text">
+    <div class="column Lens">
+      <div class="content">
+      <img src="img/Canon-RF-70-200mm-F2.8L-IS-USM_1.jpg" alt="Car" style="width:100%">
+        <h4>Canon RF 70-200mm f/2.8L IS USM</h4>
+        <p>73,900 ฿</p>
+        <p><button> <a href="Home">BUYNOW</button></p>
+      </div>
+    </div>
+    <div class="hero-text">
+      <div class="column GoPro">
+        <div class="content">
+        <img src="img/GoPro-HERO-8-3.jpg" alt="Car" style="width:100%">
+          <h4>GoPro HERO 8 Black</h4>
+          <p>12,999 ฿ – 14,500 ฿</p>
+          <p><button> <a href="Home">BUYNOW</button></p>
+        </div>
+      </div>
+</div>
+<div class="hero-text">
+  <div class="column Camera">
     <div class="content">
-    <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
-      <h4>Woman</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="img/Sony-Alpha-A5100_1.jpg" alt="Car" style="width:100%">
+      <h4>Sony a5100</h4>
+      <p>13,590 ฿ – 18,990 ฿</p>
+      <p><button> <a href="Home">BUYNOW</button></p>
     </div>
   </div>
-<!-- END GRID -->
 </div>
 
-<!-- END MAIN -->
 </div>
 
 <script>
@@ -243,7 +280,7 @@ function w3RemoveClass(element, name) {
 }
 
 
-// Add active class to the current button (highlight it)
+
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
@@ -257,3 +294,6 @@ for (var i = 0; i < btns.length; i++) {
 
 </body>
 </html>
+
+
+
