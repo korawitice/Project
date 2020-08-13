@@ -21,6 +21,7 @@ Route.on('/').render('home')
 Route.on('/home').render('home')
 Route.on('/Contact').render('Contact')
 Route.on('/Shop').render('Shop')
+Route.on('/Nikon').render('Nikon')
 
 Route.get("/login", "AuthController.login");
 Route.post("/login", "AuthController.loginuser");
